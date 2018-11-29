@@ -6,6 +6,7 @@
 package cw2;
 
 import static cw2.tablica.*;
+import static cw2.metoda.*;
 
 /**
  *
@@ -26,6 +27,15 @@ public class Cw2 {
         wypelnionaTablica(t);
         
         sumaTablicy(t);
+        
+        metoda m = new metoda();
+        
+        m.suma(1,2,3,4);
+        
+        System.out.println("suma to1: " + m);
+        
+        
+        
         
     }    
        
